@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+body{
+    font-family: 'Dosis';
+}
+div{
+    text-align: center;
+}
+button{
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 10px auto;
+    font-size: larger;
+    border: 0;
+    background-color: rgb(95, 45, 141);
+    border-radius: 5px;
+    color: white;
+}
+input{
+    border: 2px solid rgb(95, 45, 141);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: inherit;
+    font-size:larger;
+}
