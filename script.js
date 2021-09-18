@@ -8,7 +8,7 @@ clickButton.addEventListener("click", clickHandler);
 function clickHandler() {
     var date = datePicker.valueAsDate;
     if(date === null){
-        para.textContent = "Enter Some Value."
+        para.textContent = "Enter your birthday to proceed."
     }
     console.log(date)
     var day = date.getDate();
